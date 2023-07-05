@@ -1,5 +1,13 @@
-import React from 'react';
+import React from "react";
+import Header from "./Header";
 
-const Home = () =>  <h1>ragaca</h1>
+function Home() {
+  return (
+    <div>
+      <Header />
+      <h1>hello</h1>
+    </div>
+  );
+}
 
 export default Home;

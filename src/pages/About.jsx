@@ -1,5 +1,14 @@
 import React from 'react';
+import Header from "./Header";
 
-const About = () =>  <h1>rugaca</h1>
+
+function About(){
+   return (
+    <div>
+      <Header />
+      <h1>About us</h1>
+    </div>  
+     )
+}  
 
 export default About;
